@@ -16,11 +16,11 @@ from datetime import datetime
 def job():
     
    #Authenticating with reddit servers with the access tokens
-    reddit = praw.Reddit(client_id='r8GLowq0aJS4yw',
-                             client_secret='BvZMhYyIFVmyPT-2qK5gEobMwdM',
-                             password='Monika05!',
-                             user_agent='Corona',
-                             username='info_scientist')
+    reddit = praw.Reddit(client_id='',
+                             client_secret='',
+                             password='',
+                             user_agent='',
+                             username='')
     
     #Creating an instance of reddit object specifying the subreddit to scrape from
     subreddits=reddit.subreddit('news')
